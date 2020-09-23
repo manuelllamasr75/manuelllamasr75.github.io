@@ -15,6 +15,21 @@
 .whatsapp-icon {
   margin-top:15px;
 }
+
+.mi_mapa{
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;
+height:0;
+}
+.iframe_mapa{
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:inherit;
+}
+
 html {
     line-height: 1.15;
     -ms-text-size-adjust: 100%;
@@ -376,7 +391,7 @@ textarea {
 }
 
 a {
-    color: #535FD7;
+    color: #ff0d0d;
     text-decoration: none
 }
 
@@ -661,7 +676,7 @@ label {
 
 .container,
 .container-sm {
-    width: 100%;
+    width: 80%;
     margin: 0 auto;
     padding-left: 16px;
     padding-right: 16px
@@ -681,7 +696,7 @@ label {
 }
 
 .container-sm {
-    max-width: 848px
+    max-width: 828px
 }
 
 .container .container-sm {
@@ -1863,7 +1878,7 @@ main {
     flex: none;
     width: 199%;
     display: inline-flex;
-    justify-content: center
+    justify-content: left
 }
 
 .footer-brand,
@@ -1896,12 +1911,12 @@ main {
     .footer-links,
     .footer-social-links,
     .footer-copyright {
-        flex: 39%
+        flex: 45%
     }
 
     .footer-brand,
     .footer-copyright {
-        justify-content: flex-start
+        justify-content: center
     }
 
     .footer-links,
@@ -2047,7 +2062,7 @@ h6,
 .has-bottom-divider::after,
 hr::after,
 .feature-title::after {
-    transition: background .25s ease
+    transition: background .45s ease
 }
 
 .boxed-container {
