@@ -391,7 +391,7 @@ textarea {
 }
 
 a {
-    color: #ff0d0d;
+    color: #ff1d1d;
     text-decoration: none
 }
 
@@ -414,7 +414,7 @@ h6,
 .h5,
 .h6 {
     clear: both;
-    color: #af0000;
+    color: #FF1D1D;
     font-family: "IBM Plex Sans", sans-serif;
     font-weight: 600
 }
@@ -727,10 +727,10 @@ label {
     text-decoration: none;
     text-transform: uppercase;
     background-color: #fff;
-    color: #FF1D1D
+    color: #FF1D1D !important;
 		
 		
-!important;
+
     border: none;
     height: auto;
     left: 8px;
