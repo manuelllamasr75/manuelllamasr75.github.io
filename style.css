@@ -727,7 +727,10 @@ label {
     text-decoration: none;
     text-transform: uppercase;
     background-color: #fff;
-    color: #535FD7 !important;
+    color: #FF1D1D
+		
+		
+!important;
     border: none;
     height: auto;
     left: 8px;
